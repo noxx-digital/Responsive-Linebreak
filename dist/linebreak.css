@@ -1,146 +1,86 @@
-@media only screen and (min-width: 0) {
+@media only screen and (min-width: 0) and (max-width: 576px) {
   br.xs {
-    display: inline;
+    display: inline !important;
   }
-
   br.sm {
     display: none;
   }
-
   br.md {
     display: none;
   }
-
   br.lg {
     display: none;
   }
-
   br.xl {
     display: none;
-  }
-
-  br.xs.sm {
-    display: inline;
-  }
-
-  br.xs.sm.md {
-    display: inline;
-  }
-
-  br.xs.sm.md.lg {
-    display: inline;
-  }
-
-  br.xs.sm.md.lg.xl {
-    display: inline;
   }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 768px) {
   br.xs {
     display: none;
   }
-
   br.sm {
-    display: inline;
+    display: inline !important;
   }
-
   br.md {
     display: none;
   }
-
   br.lg {
     display: none;
   }
-
   br.xl {
     display: none;
-  }
-
-  br.sm.md {
-    display: inline;
-  }
-
-  br.sm.md.lg {
-    display: inline;
-  }
-
-  br.sm.md.lg.xl {
-    display: inline;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   br.xs {
     display: none;
   }
-
   br.sm {
     display: none;
   }
-
   br.md {
-    display: inline;
+    display: inline !important;
   }
-
   br.lg {
     display: none;
   }
-
   br.xl {
     display: none;
-  }
-
-  br.md.lg {
-    display: inline;
-  }
-
-  br.md.lg.xl {
-    display: inline;
   }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
   br.xs {
     display: none;
   }
-
   br.sm {
     display: none;
   }
-
   br.md {
     display: none;
   }
-
   br.lg {
-    display: inline;
+    display: inline !important;
   }
-
   br.xl {
     display: none;
-  }
-
-  br.lg.xl {
-    display: inline;
   }
 }
 @media only screen and (min-width: 1200px) {
   br.xs {
     display: none;
   }
-
   br.sm {
     display: none;
   }
-
   br.md {
     display: none;
   }
-
   br.lg {
     display: none;
   }
-
   br.xl {
-    display: inline;
+    display: inline !important;
   }
 }
 
